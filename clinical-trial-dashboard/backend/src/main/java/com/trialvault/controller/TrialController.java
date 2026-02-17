@@ -1,7 +1,7 @@
 package com.trialvault.controller;
 
 import com.trialvault.model.Trial;
-import com.trialvault.repository.TrialRepository;
+import com.trialvault.service.TrialService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,19 +11,19 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:5173")
 public class TrialController {
 
-    private final TrialRepository repository;
+    private final TrialService service;
 
-    public TrialController(TrialRepository repository) {
-        this.repository = repository;
+    public TrialController(TrialService service) {
+        this.service = service;
     }
 
     @GetMapping
     public List<Trial> getAllTrials() {
-        return repository.findAll();
+        return service.getAllTrials();
     }
 
     @PostMapping
     public Trial createTrial(@RequestBody Trial trial) {
-        return repository.save(trial);
+        return service.createTrial(trial);
     }
 }
