@@ -15,12 +15,12 @@ const Header: React.FC<HeaderProps> = ({ searchTerm, onSearchChange }) => {
                 </div>
                 <h1 className="text-xl font-bold tracking-tight text-gray-800">TrialVault Dashboard</h1>
             </div>
-            <div className="relative w-96">
-                <Search className="absolute left-3 top-1/2 -transform -translate-y-1/2 text-gray-400" size={18} />
+            <div className="flex items-center gap-3 w-96">
+                <Search className="text-gray-400" size={20} />
                 <input
                     type="text"
                     placeholder="Search trials, sponsors..."
-                    className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-50 transition-all"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-50 transition-all"
                     value={searchTerm}
                     onChange={(e) => onSearchChange(e.target.value)}
                 />

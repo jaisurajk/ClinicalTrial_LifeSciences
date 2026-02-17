@@ -1,0 +1,6 @@
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/ClinicalTrialDashboardApplication.java
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/controller/TrialController.java
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/model/Trial.java
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/repository/TrialRepository.java
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/security/SecurityConfig.java
+/Users/jaisuraj/ClinicalTrialProject/ClinicalTrial_LifeSciences/clinical-trial-dashboard/backend/src/main/java/com/trialvault/service/TrialService.java

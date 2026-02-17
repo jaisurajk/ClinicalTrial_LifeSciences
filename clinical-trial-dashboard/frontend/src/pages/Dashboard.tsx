@@ -37,10 +37,10 @@ const Dashboard: React.FC = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50 text-gray-900 font-sans">
+        <div className="min-h-screen bg-gray-50 text-gray-900 font-sans flex flex-col">
             <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
-            <main className="p-8 max-w-7xl mx-auto">
+            <main className="p-8 max-w-7xl mx-auto flex-1 w-full">
                 <div className="mb-8">
                     <h2 className="text-3xl font-extrabold text-gray-900 mb-2">Clinical Trial Overview</h2>
                     <p className="text-gray-500">Monitor and manage all current clinical research programs.</p>
@@ -56,7 +56,7 @@ const Dashboard: React.FC = () => {
             </main>
 
             <footer className="p-8 text-center text-gray-400 text-sm border-t border-gray-100 mt-12 bg-white">
-                &copy; 2026 TrialVault Clinical Systems. All rights reserved.
+                &copy; 2026 Jaisuraj Kaleeswaran. All rights reserved.
             </footer>
         </div>
     );

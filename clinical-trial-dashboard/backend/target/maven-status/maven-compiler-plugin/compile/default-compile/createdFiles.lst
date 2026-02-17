@@ -1,0 +1,6 @@
+com/trialvault/service/TrialService.class
+com/trialvault/security/SecurityConfig.class
+com/trialvault/repository/TrialRepository.class
+com/trialvault/ClinicalTrialDashboardApplication.class
+com/trialvault/model/Trial.class
+com/trialvault/controller/TrialController.class
